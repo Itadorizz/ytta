@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Notes App</h1>
+    </header>
+    <main>
+      <section id="input-section">
+        <h2>Add New Note</h2>
+        <form id="note-form">
+          <input type="text" id="title" placeholder="Title" required />
+          <textarea id="body" placeholder="Note content" required></textarea>
+          <button type="submit">Add Note</button>
+        </form>
+      </section>
+      <section id="notes-section">
+        <h2>Your Notes</h2>
+        <div id="notes-container"></div>
+      </section>
+    </main>
+    <div id="loading" class="hidden">Loading...</div>
+  </body>
+</html>
